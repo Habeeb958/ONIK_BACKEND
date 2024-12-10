@@ -12,8 +12,8 @@ using ONIK_BANK.Data;
 namespace ONIK_BANK.Migrations
 {
     [DbContext(typeof(CustomerDbContext))]
-    [Migration("20241209143533_IntialCreates")]
-    partial class IntialCreates
+    [Migration("20241210122310_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
