@@ -1,0 +1,6 @@
+@ONIK_BANK_HostAddress = http://localhost:5270
+
+GET {{ONIK_BANK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
