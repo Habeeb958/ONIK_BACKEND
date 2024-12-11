@@ -30,7 +30,7 @@ namespace ONIK_BANK.Service
             return customerDbContext.Customers.ToList();
         }
 
-        public Customer GetCustomerById(int id)
+        public Customer GetCustomerById(string id)
         {
             Customer customer = customerDbContext.Customers.Find(id);
             return customer;

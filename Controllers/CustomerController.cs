@@ -27,7 +27,7 @@ namespace ONIK_BANK.Controllers
 
         [HttpGet("GetCustomerBy{id}")]
 
-        public IActionResult GetCustomerById(int id)
+        public IActionResult GetCustomerById(string id)
         {
             if (id == null)
             {
@@ -48,7 +48,7 @@ namespace ONIK_BANK.Controllers
 
         [HttpDelete("DeleteCustomerBy{id}")]
 
-        public IActionResult DeleteCustomer(int id)
+        public IActionResult DeleteCustomer(string id)
         {
             var getCustomer = _customerService.GetCustomerById(id);
             if (getCustomer == null)

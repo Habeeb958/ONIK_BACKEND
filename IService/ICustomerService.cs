@@ -6,7 +6,7 @@ namespace ONIK_BANK.IService
     {
         public void CreateCustomer(Customer customer);
         List<Customer> GetCustomers();
-        Customer GetCustomerById(int id);
+        Customer GetCustomerById(string id);
         public void DeleteCustomer(Customer customer);
         Customer GetCustomerByName(string name);
         List<Customer> GetAllCustomers();
